@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceylon Blue Range Tours | Travel Sri Lanka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <div class="container header-container">
+           <div class="logo-brand">
+               <a href="index.html" class="logo">
+                   <img src="images/output-onlinepngtools.png" class="logo2" alt="Ceylon Blue Range Tours Logo">
+               </a>
+                     <a href="index.html"><span class="brand">Ceylon Blue Range Tours</span></a>
+           </div>
+           <div class="burger" onclick="toggleNav()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Destinations.html" class="active">Destinations</a></li>
+                    <li><a href="Tours.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="TourPackages.html">Packages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="destinations-container">
+        <div class="destinations-grid">
+            <div class="destination-card">
+                <div class="destination-image">
+                    <img src="images/pexels-leo-pixie-332282673-18727240.jpg" alt="Sigiriya Rock Fortress">
+                </div>
+                <div class="destination-info">
+                    <h3>Sigiriya Rock Fortress</h3>
+                    <p>An ancient rock fortress and palace ruins, known as the Lion Rock, featuring incredible frescoes and landscaped gardens. A UNESCO World Heritage Site that showcases Sri Lanka's rich historical heritage.</p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <div class="destination-image">
+                    <img src="images/florian-wehde-btc7lo_Er4Y-unsplash.jpg" alt="Kandy">
+                </div>
+                <div class="destination-info">
+                    <h3>Kandy</h3>
+                    <p>The cultural capital of Sri Lanka, home to the sacred Temple of the Tooth Relic. Experience traditional Kandyan dance, explore beautiful botanical gardens, and enjoy the serene mountain landscape.</p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <div class="destination-image">
+                    <img src="images/silver-ringvee-G55o7kwkBdM-unsplash.jpg" alt="Yala National Park">
+                </div>
+                <div class="destination-info">
+                    <h3>Yala National Park</h3>
+                    <p>Sri Lanka's most famous wildlife sanctuary, home to a variety of animals including leopards, elephants, and numerous bird species. Experience an unforgettable safari adventure in this diverse ecosystem.</p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <div class="destination-image">
+                    <img src="images/pexels-shainee-2933943.jpg" alt="Galle Fort">
+                </div>
+                <div class="destination-info">
+                    <h3>Galle Fort</h3>
+                    <p>A historic fortified city with Dutch colonial architecture, located on the southwestern coast. Explore charming streets, boutique shops, museums, and enjoy stunning ocean views.</p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <div class="destination-image">
+                    <img src="images/heshan-weeramanthri-ytNk5s_4Wys-unsplash.jpg" alt="Nuwara Eliya">
+                </div>
+                <div class="destination-info">
+                    <h3>Nuwara Eliya</h3>
+                    <p>Known as "Little England", this hill station offers a cool climate, beautiful tea plantations, and scenic landscapes. Explore colonial-era buildings and enjoy the picturesque mountain scenery.</p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <div class="destination-image">
+                    <img src="images/leonard-jayawardena-Pa5uPBl-NtM-unsplash.jpg" alt="Bentota">
+                </div>
+                <div class="destination-info">
+                    <h3>Bentota</h3>
+                    <p>Bentota is a resort town on Sri Lanka's southwest coast. Its long Bentota Beach stretches north, where it becomes a sandy strip known as Paradise Island, parallel to Bentota Lagoon. Coral-rich dive sites include Canoe Rock.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- HTML - Replace your existing travel-guide section with this -->
+<section id="travel-guide">
+    <div class="container">
+        <h2>Download Our Travel Guide</h2>
+        <div class="section-intro">
+            <p>Get detailed insights and itineraries for your Sri Lankan adventure with our comprehensive travel guide.</p>
+        </div>
+        <div class="pdf-container">
+            <div class="click-here">
+                <svg class="arrow-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 5v14M5 12l7 7 7-7"/>
+                </svg>
+                <span>Click here to download</span>
+            </div>
+            <a href="images/guide tour black.pdf" class="download-btn" download>
+                <svg class="download-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
+                    <polyline points="7 10 12 15 17 10"/>
+                    <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+                Download PDF
+            </a>
+        </div>
+    </div>
+</section>
+    <div class="map-container">
+        <img src="images/map.png" class="map1" alt="Map">
+    </div></div>
+
+
+    <script>
+        function toggleNav() {
+            document.getElementById("navbar").classList.toggle("active");
+            document.querySelector(".burger").classList.toggle("toggle");
+        }
+    </script>
+</body>
+</html>

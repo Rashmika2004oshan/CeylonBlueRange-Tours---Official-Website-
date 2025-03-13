@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Ceylon Blue Range Tours</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <div class="container header-container">
+            <div class="logo-brand">
+                <a href="index.html" class="logo">
+                    <img src="images/output-onlinepngtools.png" class="logo2" alt="Ceylon Blue Range Tours Logo">
+                </a>
+                <a href="index.html"><span class="brand">Ceylon Blue Range Tours</span></a>
+            </div>
+            <div class="burger" onclick="toggleNav()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Destinations.html">Destinations</a></li>
+                    <li><a href="Tours.html">Reviews</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="TourPackages.html">Packages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact-page">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="section-intro">
+                <p>We’d love to hear from you! Reach out with any questions or to plan your next Sri Lankan adventure.</p>
+            </div>
+            <div class="contact-content">
+                <!-- Company Contact Details -->
+                <div class="contact-details">
+                    <h3>Contact Details</h3>
+                    <ul>
+                        <li><strong>Address:</strong> 142/2, Kudugalawatta, Polgolla, Kandy, Sri Lanka</li>
+                        <li><strong>Phone/WhatsApp:</strong> +94 77 665 5690</li>
+                        <li><strong>Email:</strong> <a href="mailto:info@ceylonbluerange.com">info@ceylonbluerange.com</a></li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/p/Ceylon-Blue-Range-Tours-100083154881466/?locale=hi_IN" aria-label="Facebook"><img src="images/333.png" class="social-icon fb1" alt="Facebook"></a>
+                        <a href="https://www.instagram.com/ceylonbluerange/" aria-label="Instagram"><img src="images/download.jpeg" class="social-icon ig1" alt="Instagram"></a>
+                        <a href="https://www.google.com/search?q=ceylon+blue+range+tours" aria-label="WhatsApp"><img src="images/whatsapp-logo-whatsapp-logo-transparent-whatsapp-icon-transparent-free-free-png.webp" class="social-icon wh1" alt="WhatsApp"></a>
+                        <a href="https://www.tiktok.com/@ceylonbluerangeto/video/7392918078117448976" aria-label="TikTok"><img src="images/download (2).png" class="social-icon tk1" alt="TikTok"></a>
+                    </div>
+                </div>
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form action="https://formspree.io/f/mbldnnek" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number(With country code)</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone (Optional)">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="How can we assist you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>Ceylon Blue Range Tours</h3>
+                    <p>Your trusted travel partner in Sri Lanka, providing personalized tours and authentic experiences since 2015.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Destinations.html">Destinations</a></li>
+                        <li><a href="Tours.html">Reviews</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="TourPackages.html">Packages</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>142/2, Kudugalawatta, Polgolla, Kandy, Sri Lanka</li>
+                        <li>Phone/Whatsapp: +94776655690</li>
+                        <li>Email: info@ceylonbluerangetours.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Ceylon Blue Range Tours. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
